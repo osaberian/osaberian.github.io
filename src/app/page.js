@@ -4,9 +4,10 @@ import ScrollButton from "@/components/ScrollButton";
 import Seperator from "@/components/Seperator";
 import ScreenSection from "@/components/ScreenSection";
 import ProjectCard from "@/components/ProjectCard";
+import ContactOption from "@/components/ContactOption";
 
 import tictactoeThumbnail from "./images/tic-tac-toe-thumbnail.png";
-import ContactOption from "@/components/ContactOption";
+import portfolioWebsiteThumbnail from "./images/portfolio-website-thumbnail.png";
 
 export default function Home() {
 	return (
@@ -31,6 +32,13 @@ export default function Home() {
 						imageSource={tictactoeThumbnail}
 						githubHref={"https://github.com/omi08/tic-tac-toe-p5js"}
 						href={"https://omi08.github.io/tic-tac-toe-p5js/"}
+					/>
+					<ProjectCard
+						title="Portfolio Website"
+						description="This is the website you are currently looking at! It's still a work in progress, but you can see my projects and find contact information here."
+						imageSource={portfolioWebsiteThumbnail}
+						githubHref={"https://github.com/omi08/omi08.github.io"}
+						href={"https://omi08.github.io/"}
 					/>
 				</div>
 			</ScreenSection>
