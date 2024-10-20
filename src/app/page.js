@@ -14,8 +14,8 @@ export default function Home() {
 			<section className="flex justify-evenly items-center h-screen flex-col">
 				<MainTitle title="Omi08" />
 				<p className="text-lg md:text-xl font-victormono text-center w-5/6 md:w-1/2">
-					Welcome to Omi08's Portfolio! You can see my projects and find contact
-					information here. This website is still a work in progress!
+					Welcome to Omi08&apos;s Portfolio! You can see my projects and find
+					contact information here. This website is still a work in progress!
 				</p>
 				<div className="flex gap-8">
 					<ScrollButton to="projects" />

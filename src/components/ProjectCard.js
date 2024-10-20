@@ -14,19 +14,29 @@ export default function ProjectCard({
 }) {
 	return (
 		<div className="flex flex-col border-slate-600 border-2 rounded-2xl overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-500">
-			<Image src={imageSource} className="w-full " />
+			<Image src={imageSource} className="w-full" alt="" />
 			<div className="p-4">
 				<div className="flex justify-between items-center">
 					<h3 className="text-lg font-victormono">{title}</h3>
 					<div className="flex gap-4 justify-center items-center">
 						{href && (
 							<a href={href} target="_blank">
-								<Image src={openInNewIcon} width={27} height={27} />
+								<Image
+									src={openInNewIcon}
+									width={27}
+									height={27}
+									alt="Open in new window"
+								/>
 							</a>
 						)}
 						{githubHref && (
 							<a href={githubHref} target="_blank">
-								<Image src={githubIcon} width={25} height={25} />
+								<Image
+									src={githubIcon}
+									width={25}
+									height={25}
+									alt="Github Logo"
+								/>
 							</a>
 						)}
 					</div>
