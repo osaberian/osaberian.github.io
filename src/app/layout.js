@@ -14,8 +14,8 @@ const victormono = localFont({
 });
 
 export const metadata = {
-	title: "Omi08 - Home",
-	description: "Omi08's portfolio website.",
+	title: "OS - Home",
+	description: "Omeed's portfolio website.",
 };
 
 export default function RootLayout({ children }) {

@@ -13,9 +13,9 @@ export default function Home() {
 	return (
 		<main>
 			<section className="flex justify-evenly items-center h-screen flex-col">
-				<MainTitle title="Omi08" />
+				<MainTitle title="Omeed Saberian" />
 				<p className="text-lg md:text-xl font-victormono text-center w-5/6 md:w-1/2">
-					Welcome to Omi08&apos;s Portfolio! You can see my projects and find
+					Welcome to Omeed&apos;s Portfolio! You can see my projects and find
 					contact information here. This website is still a work in progress!
 				</p>
 				<div className="flex gap-8">
@@ -30,15 +30,15 @@ export default function Home() {
 						title="Tic Tac Toe p5.js"
 						description="A simple tic-tac-toe game made in p5.js, with options to play against AI or another human."
 						imageSource={tictactoeThumbnail}
-						githubHref={"https://github.com/omi08/tic-tac-toe-p5js"}
-						href={"https://omi08.github.io/tic-tac-toe-p5js/"}
+						githubHref={"https://github.com/osaberian/tic-tac-toe-p5js"}
+						href={"https://osaberian.github.io/tic-tac-toe-p5js/"}
 					/>
 					<ProjectCard
 						title="Portfolio Website"
 						description="This is the website you are currently looking at! It's still a work in progress, but you can see my projects and find contact information here."
 						imageSource={portfolioWebsiteThumbnail}
-						githubHref={"https://github.com/omi08/omi08.github.io"}
-						href={"https://omi08.github.io/"}
+						githubHref={"https://github.com/osaberian/osaberian.github.io"}
+						href={"https://osaberian.github.io/"}
 					/>
 				</div>
 			</ScreenSection>
@@ -52,8 +52,8 @@ export default function Home() {
 					/>
 					<ContactOption
 						title="GitHub"
-						content="Omi08"
-						href="https://github.com/omi08"
+						content="osaberian"
+						href="https://github.com/osaberian"
 					/>
 					<ContactOption
 						title="Instagram"

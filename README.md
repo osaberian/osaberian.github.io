@@ -1,7 +1,5 @@
-# Omi08 Portfolio Website
+# Omeed's Portfolio Website
 
-Welcome to Omi08's Portfolio!
-
-You can see my projects and find contact information here.
+You can see projects and find contact information here.
 
 NOTE: This is a work in progress!!!
