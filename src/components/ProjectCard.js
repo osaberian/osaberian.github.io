@@ -15,6 +15,7 @@ export default function ProjectCard({
 	return (
 		<div className="flex flex-col border-slate-600 border-2 rounded-2xl overflow-hidden hover:shadow-2xl hover:scale-105 transition-all duration-500">
 			<Image src={imageSource} className="w-full" alt="" />
+			<hr className="border-slate-600" />
 			<div className="p-4">
 				<div className="flex justify-between items-center">
 					<h3 className="text-lg font-victormono">{title}</h3>

@@ -13,7 +13,10 @@ export default function Home() {
 	return (
 		<main>
 			<section className="flex justify-evenly items-center h-screen flex-col">
-				<MainTitle title="Omeed Saberian" />
+				<div>
+					<MainTitle title="Omeed" />
+					<MainTitle title="Saberian" />
+				</div>
 				<p className="text-lg md:text-xl font-victormono text-center w-5/6 md:w-1/2">
 					Welcome to Omeed&apos;s Portfolio! You can see my projects and find
 					contact information here. This website is still a work in progress!
@@ -44,20 +47,11 @@ export default function Home() {
 			</ScreenSection>
 			<Seperator />
 			<ScreenSection name="contact">
-				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-20">
-					<ContactOption
-						title="Email"
-						content="omeedsaberian@gmail.com"
-						href="mailto:omeedsaberian@gmail"
-					/>
-					<ContactOption
-						title="GitHub"
-						content="osaberian"
-						href="https://github.com/osaberian"
-					/>
+				<div className="flex flex-col gap-8 p-20 sm:px-14 md:px-56 lg:px-72">
+					<ContactOption title="Email" href="mailto:omeedsaberian@gmail" />
+					<ContactOption title="GitHub" href="https://github.com/osaberian" />
 					<ContactOption
 						title="Instagram"
-						content="omeedsaberian"
 						href="https://www.instagram.com/omeedsaberian/"
 					/>
 				</div>
