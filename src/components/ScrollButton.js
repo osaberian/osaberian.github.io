@@ -1,17 +1,41 @@
 import React from "react";
 
 import { Link } from "react-scroll";
+import Image from "next/image";
 
-export default function ScrollButton({ to }) {
+import downArrowIcon from "../../public/images/arrow-down-icon.png";
+import contactIcon from "../../public/images/contact-icon.png";
+
+export default function ScrollButton({
+	to,
+	displayText = "",
+	onClick = () => {},
+	icon = "",
+}) {
 	return (
 		<Link
+			onClick={onClick}
 			to={to}
 			offset={-50}
 			smooth
 			duration={1000}
-			className="flex cursor-pointer text-foregroundDark text-lg font-victormono bg-slate-600 p-4 rounded-lg hover:bg-slate-500 transition-all duration-200 w-32 justify-center items-center"
+			className="flex cursor-pointer font-bold text-foregroundDark text-lg font-victormono bg-slate-600 p-4 rounded-lg hover:bg-slate-500 transition-all duration-200 w-fit justify-center items-center gap-2"
 		>
-			{to.toUpperCase()}
+			{icon !== "" && (
+				<Image
+					src={
+						icon == "down-arrow"
+							? downArrowIcon
+							: icon == "contact"
+							? contactIcon
+							: icon
+					}
+					width={27}
+					height={27}
+					alt=""
+				/>
+			)}
+			{displayText !== "" ? displayText : to.toUpperCase()}
 		</Link>
 	);
 }

@@ -2,13 +2,13 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 const sixtyfour = localFont({
-	src: "./fonts/Sixtyfour.ttf",
+	src: "../../public/fonts/Sixtyfour.ttf",
 	variable: "--font-sixtyfour",
 	weight: "100 900",
 });
 
 const victormono = localFont({
-	src: "./fonts/VictorMono.ttf",
+	src: "../../public/fonts/VictorMono.ttf",
 	variable: "--font-victormono",
 	weight: "100 900",
 });
