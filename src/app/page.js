@@ -24,7 +24,7 @@ export default function Home() {
 					Welcome to Omeed&apos;s Portfolio! You can see my projects and find
 					contact information here. This website is still a work in progress!
 				</p>
-				<div className="flex gap-8">
+				<div className="flex justify-center items-center gap-8 flex-wrap">
 					<ScrollButton
 						to="projects"
 						displayText="SEE PROJECTS"
