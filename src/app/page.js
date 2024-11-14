@@ -1,4 +1,6 @@
 "use client";
+import React from "react";
+
 import MainTitle from "@/components/MainTitle";
 import ScrollButton from "@/components/ScrollButton";
 import Seperator from "@/components/Seperator";
@@ -18,7 +20,7 @@ export default function Home() {
 			<section className="flex justify-evenly items-center h-screen flex-col">
 				<div>
 					<MainTitle title="Omeed" />
-					<MainTitle title="Saberian" />
+					<MainTitle title="Saberian" delay={0.6} switchDir />
 				</div>
 				<p className="text-lg md:text-xl font-victormono text-center w-5/6 md:w-1/2">
 					Welcome to Omeed&apos;s Portfolio! You can see my projects and find
