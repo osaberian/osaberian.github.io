@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-import MainTitle from "@/components/MainTitle";
+import AnimatedMainTitle from "@/components/AnimatedMainTitle";
 import ScrollButton from "@/components/ScrollButton";
 import Seperator from "@/components/Seperator";
 import ScreenSection from "@/components/ScreenSection";
@@ -19,12 +19,12 @@ export default function Home() {
 			<Navigator />
 			<section className="flex justify-evenly items-center h-screen flex-col">
 				<div>
-					<MainTitle title="Omeed" />
-					<MainTitle title="Saberian" delay={0.6} switchDir />
+					<AnimatedMainTitle title="Omeed" />
+					<AnimatedMainTitle title="Saberian" delay={0.6} switchDir />
 				</div>
 				<p className="text-lg md:text-xl font-victormono text-center w-5/6 md:w-1/2">
 					Welcome to Omeed&apos;s Portfolio! You can see my projects and find
-					contact information here. This website is still a work in progress!
+					contact information here. This website is still a work in progress.
 				</p>
 				<div className="flex justify-center items-center gap-8 flex-wrap">
 					<ScrollButton
@@ -52,7 +52,7 @@ export default function Home() {
 					/>
 					<ProjectCard
 						title="Portfolio Website"
-						description="This is the website you are currently looking at! It's still a work in progress, but you can see my projects and find contact information here."
+						description="This is the website you are currently looking at. It's still a work in progress, but you can see my projects and find contact information here."
 						imageSource={portfolioWebsiteThumbnail}
 						githubHref={"https://github.com/osaberian/osaberian.github.io"}
 						href={"/projects/portfolio-website"}
