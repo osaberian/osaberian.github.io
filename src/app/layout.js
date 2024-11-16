@@ -14,7 +14,7 @@ const victormono = localFont({
 });
 
 export const metadata = {
-	title: "OS - Home",
+	title: "Omeed Saberian",
 	description: "Omeed's portfolio website.",
 };
 

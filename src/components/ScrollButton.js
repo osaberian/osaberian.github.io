@@ -18,7 +18,7 @@ export default function ScrollButton({
 			to={to}
 			offset={-50}
 			smooth
-			duration={1000}
+			duration={500}
 			className="flex cursor-pointer font-bold text-foregroundDark text-lg font-victormono bg-slate-600 p-4 rounded-lg hover:bg-transparent border-transparent border hover:border-slate-600 transition-all duration-200 w-fit justify-center items-center gap-2"
 		>
 			{icon !== "" && (
